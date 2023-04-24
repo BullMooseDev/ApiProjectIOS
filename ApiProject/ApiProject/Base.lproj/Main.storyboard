@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 2-->
+        <!--Reps-->
         <scene sceneID="ONm-T2-He9">
             <objects>
-                <viewController id="gm0-eO-cJ6" customClass="RepresentativeTabBarViewController" customModule="ApiProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="gm0-eO-cJ6" customClass="RepresentativeViewController" customModule="ApiProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XLp-WS-osA">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -20,13 +20,50 @@
                                 <rect key="frame" x="16" y="141" width="361" height="628"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="93" id="7tq-gg-nZI" customClass="RepresentativeCell" customModule="ApiProject" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="361" height="93"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="RepCell" rowHeight="160" id="7tq-gg-nZI" customClass="RepresentativeCell" customModule="ApiProject" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="361" height="160"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7tq-gg-nZI" id="wpa-Lc-vtQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="361" height="93"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="361" height="160"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Party of Representative Here!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lB6-71-jq5">
+                                                    <rect key="frame" x="19.999999999999986" y="70" width="223.66666666666663" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Link for Representative Here!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wnd-Ce-f15">
+                                                    <rect key="frame" x="19.999999999999986" y="128" width="220.66666666666663" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name of Representative Here!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Px5-Wa-5Ag">
+                                                    <rect key="frame" x="19.999999999999986" y="11" width="228.66666666666663" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="lB6-71-jq5" secondAttribute="trailing" constant="117.33333333333337" id="54T-Fw-8gT"/>
+                                                <constraint firstItem="Wnd-Ce-f15" firstAttribute="top" secondItem="lB6-71-jq5" secondAttribute="bottom" constant="37" id="GNJ-EN-shS"/>
+                                                <constraint firstAttribute="bottom" secondItem="Wnd-Ce-f15" secondAttribute="bottom" constant="11" id="GfU-Rb-8EM"/>
+                                                <constraint firstAttribute="trailing" secondItem="Wnd-Ce-f15" secondAttribute="trailing" constant="120.33333333333337" id="JMn-jR-2bH"/>
+                                                <constraint firstItem="Wnd-Ce-f15" firstAttribute="leading" secondItem="wpa-Lc-vtQ" secondAttribute="leading" constant="20" symbolic="YES" id="WXv-UC-0Hd"/>
+                                                <constraint firstItem="lB6-71-jq5" firstAttribute="top" secondItem="Px5-Wa-5Ag" secondAttribute="bottom" constant="38" id="cIM-xp-BN5"/>
+                                                <constraint firstAttribute="trailing" secondItem="Px5-Wa-5Ag" secondAttribute="trailing" constant="112.33333333333337" id="eoI-hH-5ur"/>
+                                                <constraint firstItem="lB6-71-jq5" firstAttribute="leading" secondItem="wpa-Lc-vtQ" secondAttribute="leading" constant="20" symbolic="YES" id="i3O-ig-bCF"/>
+                                                <constraint firstItem="Px5-Wa-5Ag" firstAttribute="leading" secondItem="wpa-Lc-vtQ" secondAttribute="leading" constant="20" symbolic="YES" id="kq7-0C-koz"/>
+                                                <constraint firstItem="Px5-Wa-5Ag" firstAttribute="top" secondItem="wpa-Lc-vtQ" secondAttribute="top" constant="11" id="uxC-Aw-eXr"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="PartyName" destination="lB6-71-jq5" id="sY4-Qd-8Qz"/>
+                                            <outlet property="RepLink" destination="Wnd-Ce-f15" id="ZWv-Cc-D90"/>
+                                            <outlet property="RepName" destination="Px5-Wa-5Ag" id="R6h-b2-o8Z"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -58,8 +95,9 @@
                             <constraint firstItem="Wbz-Rr-Mgp" firstAttribute="top" secondItem="nr8-CT-CaO" secondAttribute="bottom" id="nRa-Zw-4wf"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="RrP-hv-6G2"/>
+                    <tabBarItem key="tabBarItem" title="Reps" image="person.fill" catalog="system" selectedImage="person.fill" id="RrP-hv-6G2"/>
                     <connections>
+                        <outlet property="searchBar" destination="nr8-CT-CaO" id="wLc-4t-cpW"/>
                         <outlet property="tableView" destination="Wbz-Rr-Mgp" id="bDl-kV-vS3"/>
                     </connections>
                 </viewController>
@@ -67,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="-692.36641221374043" y="601.4084507042254"/>
         </scene>
-        <!--Item 1-->
+        <!--Dogs-->
         <scene sceneID="M6f-mE-feu">
             <objects>
-                <viewController id="DVs-WW-VEh" customClass="InitialViewController" customModule="ApiProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DVs-WW-VEh" customClass="DogViewController" customModule="ApiProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l7X-9A-ewY">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -82,7 +120,14 @@
                                 <rect key="frame" x="159" y="631" width="82.666666666666686" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Refresh"/>
+                                <connections>
+                                    <action selector="refreshDogs:" destination="DVs-WW-VEh" eventType="touchUpInside" id="Fxb-KQ-Mrq"/>
+                                </connections>
                             </button>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="u0c-vb-T1L">
+                                <rect key="frame" x="135" y="254" width="123" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="7C5-1N-1RP"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -96,7 +141,12 @@
                             <constraint firstItem="7C5-1N-1RP" firstAttribute="trailing" secondItem="7YD-h7-AZF" secondAttribute="trailing" constant="16" id="ptO-Sm-Vbm"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="kDq-ce-lel"/>
+                    <tabBarItem key="tabBarItem" title="Dogs" image="pawprint.fill" catalog="system" selectedImage="pawprint.fill" id="kDq-ce-lel"/>
+                    <connections>
+                        <outlet property="dogImage" destination="7YD-h7-AZF" id="bcg-mO-P8S"/>
+                        <outlet property="refreshButton" destination="9ZS-qF-lOg" id="4Yc-Jd-75a"/>
+                        <outlet property="spinner" destination="u0c-vb-T1L" id="HzD-fp-QEO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xSw-zt-Cnh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -122,6 +172,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="pawprint.fill" catalog="system" width="128" height="112"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

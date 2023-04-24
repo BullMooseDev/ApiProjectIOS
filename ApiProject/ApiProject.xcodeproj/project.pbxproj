@@ -9,27 +9,31 @@
 /* Begin PBXBuildFile section */
 		0FE02D9929F17EB2000C3596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02D9829F17EB2000C3596 /* AppDelegate.swift */; };
 		0FE02D9B29F17EB2000C3596 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02D9A29F17EB2000C3596 /* SceneDelegate.swift */; };
-		0FE02D9D29F17EB2000C3596 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02D9C29F17EB2000C3596 /* InitialViewController.swift */; };
+		0FE02D9D29F17EB2000C3596 /* DogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02D9C29F17EB2000C3596 /* DogViewController.swift */; };
 		0FE02DA029F17EB2000C3596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE02D9E29F17EB2000C3596 /* Main.storyboard */; };
 		0FE02DA229F17EB3000C3596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FE02DA129F17EB3000C3596 /* Assets.xcassets */; };
 		0FE02DA529F17EB3000C3596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FE02DA329F17EB3000C3596 /* LaunchScreen.storyboard */; };
 		0FE02DAD29F18443000C3596 /* RepresentativeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02DAC29F18443000C3596 /* RepresentativeCell.swift */; };
-		0FE02DAF29F1847F000C3596 /* RepresentativeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02DAE29F1847F000C3596 /* RepresentativeTableView.swift */; };
-		0FE02DB129F1854C000C3596 /* RepresentativeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02DB029F1854C000C3596 /* RepresentativeTabBarViewController.swift */; };
+		0FE02DB129F1854C000C3596 /* RepresentativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02DB029F1854C000C3596 /* RepresentativeViewController.swift */; };
+		0FE02DB329F19265000C3596 /* Representative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02DB229F19265000C3596 /* Representative.swift */; };
+		0FE02DB729F6C313000C3596 /* DogStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02DB629F6C313000C3596 /* DogStruct.swift */; };
+		0FE02DB929F6CC36000C3596 /* DogController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE02DB829F6CC36000C3596 /* DogController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0FE02D9529F17EB2000C3596 /* ApiProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApiProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FE02D9829F17EB2000C3596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FE02D9A29F17EB2000C3596 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FE02D9C29F17EB2000C3596 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		0FE02D9C29F17EB2000C3596 /* DogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewController.swift; sourceTree = "<group>"; };
 		0FE02D9F29F17EB2000C3596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FE02DA129F17EB3000C3596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FE02DA429F17EB3000C3596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FE02DA629F17EB3000C3596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FE02DAC29F18443000C3596 /* RepresentativeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeCell.swift; sourceTree = "<group>"; };
-		0FE02DAE29F1847F000C3596 /* RepresentativeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeTableView.swift; sourceTree = "<group>"; };
-		0FE02DB029F1854C000C3596 /* RepresentativeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeTabBarViewController.swift; sourceTree = "<group>"; };
+		0FE02DB029F1854C000C3596 /* RepresentativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepresentativeViewController.swift; sourceTree = "<group>"; };
+		0FE02DB229F19265000C3596 /* Representative.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Representative.swift; sourceTree = "<group>"; };
+		0FE02DB629F6C313000C3596 /* DogStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogStruct.swift; sourceTree = "<group>"; };
+		0FE02DB829F6CC36000C3596 /* DogController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +69,11 @@
 				0FE02D9829F17EB2000C3596 /* AppDelegate.swift */,
 				0FE02D9A29F17EB2000C3596 /* SceneDelegate.swift */,
 				0FE02DAC29F18443000C3596 /* RepresentativeCell.swift */,
-				0FE02DB029F1854C000C3596 /* RepresentativeTabBarViewController.swift */,
-				0FE02DAE29F1847F000C3596 /* RepresentativeTableView.swift */,
-				0FE02D9C29F17EB2000C3596 /* InitialViewController.swift */,
+				0FE02DB029F1854C000C3596 /* RepresentativeViewController.swift */,
+				0FE02D9C29F17EB2000C3596 /* DogViewController.swift */,
+				0FE02DB829F6CC36000C3596 /* DogController.swift */,
+				0FE02DB629F6C313000C3596 /* DogStruct.swift */,
+				0FE02DB229F19265000C3596 /* Representative.swift */,
 				0FE02D9E29F17EB2000C3596 /* Main.storyboard */,
 				0FE02DA329F17EB3000C3596 /* LaunchScreen.storyboard */,
 				0FE02DA129F17EB3000C3596 /* Assets.xcassets */,
@@ -148,9 +154,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FE02DAD29F18443000C3596 /* RepresentativeCell.swift in Sources */,
-				0FE02D9D29F17EB2000C3596 /* InitialViewController.swift in Sources */,
-				0FE02DAF29F1847F000C3596 /* RepresentativeTableView.swift in Sources */,
-				0FE02DB129F1854C000C3596 /* RepresentativeTabBarViewController.swift in Sources */,
+				0FE02DB729F6C313000C3596 /* DogStruct.swift in Sources */,
+				0FE02D9D29F17EB2000C3596 /* DogViewController.swift in Sources */,
+				0FE02DB329F19265000C3596 /* Representative.swift in Sources */,
+				0FE02DB929F6CC36000C3596 /* DogController.swift in Sources */,
+				0FE02DB129F1854C000C3596 /* RepresentativeViewController.swift in Sources */,
 				0FE02D9929F17EB2000C3596 /* AppDelegate.swift in Sources */,
 				0FE02D9B29F17EB2000C3596 /* SceneDelegate.swift in Sources */,
 			);

@@ -1,7 +1,11 @@
 import UIKit
 
 class RepresentativeCell: UITableViewCell {
-
+    
+    @IBOutlet var RepName: UILabel!
+    @IBOutlet var PartyName: UILabel!
+    @IBOutlet var RepLink: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -9,10 +13,4 @@ class RepresentativeCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
-    
-    // cell requires:
-    // name
-    // party affiliation
-    // link to .gov page <--! make it work! !-->
-
 }
